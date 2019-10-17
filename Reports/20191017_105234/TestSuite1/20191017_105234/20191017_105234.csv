@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,,,,2019-10-17 10:53:00,2019-10-17 10:53:19,18.996s,INCOMPLETE
+,,,,,,,
+Test Cases/CaluclatorTests/AdditonTestCase,,,,2019-10-17 10:53:01,2019-10-17 10:53:09,8.670s,PASSED
+"sendRequest(findTestObject(""CaluclatorSoapService/Addition""))",,,,2019-10-17 10:53:01,2019-10-17 10:53:07,5.422s,PASSED
+"response = sendRequestAndVerify(findTestObject(""CaluclatorSoapService/Addition""))",,,,2019-10-17 10:53:07,2019-10-17 10:53:09,2.572s,PASSED
+,,,,,,,
+Test Cases/reqres_rest_services_testcases/testHttpMethods,,,,2019-10-17 10:53:09,2019-10-17 10:53:19,9.527s,PASSED
+"sendRequestAndVerify(findTestObject(""reqres_rest_service/ListUserRequest_Rest""))",,,,2019-10-17 10:53:10,2019-10-17 10:53:12,2.433s,PASSED
+"sendRequestAndVerify(findTestObject(""reqres_rest_service/Create_User_Rest""))",,,,2019-10-17 10:53:12,2019-10-17 10:53:15,2.376s,PASSED
+"sendRequestAndVerify(findTestObject(""reqres_rest_service/Update_User_Rest""))",,,,2019-10-17 10:53:15,2019-10-17 10:53:17,2.112s,PASSED
+"sendRequestAndVerify(findTestObject(""reqres_rest_service/Delete_user_Rest""))",,,,2019-10-17 10:53:17,2019-10-17 10:53:19,2.106s,PASSED
